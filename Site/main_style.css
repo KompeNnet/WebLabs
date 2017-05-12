@@ -1,0 +1,30 @@
+body.b{
+	background-color:  #332720; 
+	font-family:Georgia;
+}
+h1.txt{
+	color: white;
+	font-size: 50px;
+}
+p.txt{
+	color: white;
+	font-size: 20px;
+}
+p.txtExp{
+	color: white;
+	font-size: 15px;
+}
+.column {
+	columns: 200px 2;
+	column-gap: 30px;
+	column-rule: 1px solid #ccc;
+}
+img.stand{
+	border-radius: 15px;
+	border-style: solid;
+	border-color: white;
+}
+img.right{
+	float: right;
+	margin: 7px 0 7px 7px;
+}

@@ -1,0 +1,36 @@
+div.mainBlock
+{
+	border-width: 4;
+	color: #eee;
+	background-color: #556;
+	border-color: #556;
+	color: #336;
+	margin: 2% 80% 0 2%;
+	height: 58;
+}
+
+div.CurrDay
+{
+	color: #444;
+	font-size: 13px;
+	background-color: #eee;
+	border: 2px solid;
+	border-radius: 5px;
+}
+
+p.Date
+{
+	font-size: 16px;
+	font-weight: 600;
+	color: black;
+	margin: 6%;
+}
+
+p.Info
+{
+	margin: 5%;
+	max-height: 33%;
+	columns: 80px 2;
+	column-gap: 20px;
+	column-rule: 1px solid #ccc;
+}
