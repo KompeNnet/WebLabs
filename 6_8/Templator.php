@@ -6,20 +6,14 @@ class QTemplate
 
 	function __construct($html_name)
 	{
-		if (!file_exists($html_name . '.html'))
-		{
-			return;
-		}
+		if (!file_exists($html_name . '.html')) return;
 		$this->content = file_get_contents($html_name . '.html');
 	}
 
 	function assignVars($vars)
 	{
 		$this->resContent = $this->content;
-		foreach ($vars as $blockname => $value) 
-		{
-			$this->resContent = preg_replace('/{' . $blockname . '}/i', $value, $this->resContent);			
-		}
+		foreach ($vars as $blockname => $value) $this->resContent = preg_replace('/{' . $blockname . '}/i', $value, $this->resContent);
 	}
 
 	function render()

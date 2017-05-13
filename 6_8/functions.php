@@ -1,7 +1,7 @@
 <?php
     function GetMainInfo() 
     {
-        $url = "http://api.openweathermap.org/data/2.5/forecast/daily?q=Minsk&mode=json&units=metric&cnt=3&lang=en&appid=23b4abe43b4554582b08aa8e8a599f24";
+        $url = "http://api.openweathermap.org/data/2.5/forecast/daily?q=Minsk&mode=json&units=metric&cnt=4&lang=en&appid=23b4abe43b4554582b08aa8e8a599f24";
         $data = @file_get_contents($url);
         if ($data) 
         {
