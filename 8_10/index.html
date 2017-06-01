@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>some page</title>
+	<script src='https://www.google.com/recaptcha/api.js'></script>
+	<!--#include virtual="some.php" -->
+</head>
+<body>
+	<form action="some.php" method="post">
+		<p><input type="mail" name="myMail" placeholder="your mail"></p>
+    	<p><input type="text" name="subject" placeholder="subject"></p>
+    	<p><input type="text" name="text" placeholder="text"></p>
+		<p><select name="mail">
+			<option>kompennet@gmail.com</option>
+			<option>motterante@gmail.com</option>
+		</select></p>
+		<div class="g-recaptcha" data-sitekey="6LfyDSMUAAAAAO7LortuFYbmDBlZCKtXurhBfagF"></div>
+		<p><input class = "sent" type="submit" name="enter" value="Submit"></p>
+	</form>
+</body>
+</html>
